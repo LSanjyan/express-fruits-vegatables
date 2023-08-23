@@ -15,8 +15,8 @@ class Index extends React.Component {
                                     <a href={`/vegatables/${i}`}>
                                     {vegatable.name}
                                     </a>{' '}
-                                    is {fruit.color} <br></br>
-                                    {fruit.readyToEat
+                                    is {vegatable.color} <br></br>
+                                    {vegatable.readyToEat
                                         ? `It is ready to eat`
                                         : `It is not ready to eat`}
                                     <br />
